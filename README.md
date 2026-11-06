@@ -6,3 +6,4 @@ All of them are by [iremcnar](https://github.com/iremcnar) and were copied from 
 
 | Project | What it is | Run it | Source |
 |---|---|---|---|
+| [eyeTutorial](eyeTutorial/) | Eye → Space: an ASCII-art eye opens, blinks, then the camera dives through the pupil into a starfield and a heart-shaped nebula. `R` restarts, `Esc` quits. | `python eye.py` | [iremcnar/eyeTutorial](https://github.com/iremcnar/eyeTutorial) @ `b4f4b5a` |
