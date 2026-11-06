@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Files the scripts export into the current directory
+flower_*.png
+flower.gif
+flower_frame.png
+ataturk_spiral.png
+*_spiral.png
