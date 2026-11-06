@@ -14,3 +14,14 @@ All of them are by [iremcnar](https://github.com/iremcnar) and were copied from 
 | [specialLetter](specialLetter/) | ASCII animation: a love letter is opened, burns away, and its embers form a glowing rose. `R` restarts, `Esc` quits. | `python letter.py` | [iremcnar/specialLetter](https://github.com/iremcnar/specialLetter) @ `378a85c` |
 | [mustafaKemalATATURK](mustafaKemalATATURK/) | Spiral text art: a photo redrawn with the letters of "TÜRKİYE". `ATATURK.py` uses `ataturk.png`; `Türkiye.py` takes any photo. `S` saves, `R` restarts, `Esc` quits; `--png` saves a still. | `python ATATURK.py` or `python Türkiye.py [photo]` | [iremcnar/mustafaKemalATATURK](https://github.com/iremcnar/mustafaKemalATATURK) @ `1c0360d` |
 | [snake](snake/) | Classic snake game with turtle graphics (arrow keys). | `python yilan.py` | [iremcnar/snake](https://github.com/iremcnar/snake) @ `b06fbab` |
+
+## Setup
+
+Every project opens a Tkinter/turtle window, so Python needs Tk support. Only `eyeTutorial`, `Flowers`
+and `mustafaKemalATATURK` need extra packages (`numpy`, `pillow`); the rest use the standard library only.
+
+```bash
+cd ~/Desktop/python-cool-projects
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+```
