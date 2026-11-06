@@ -33,3 +33,9 @@ If `import tkinter` fails (on Ubuntu the system Python ships without it), either
 uv venv --python 3.12 --managed-python .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 ```
+
+Then run any project from inside its folder (some scripts load images next to themselves or save files to the current directory):
+
+```bash
+cd eyeTutorial && ../.venv/bin/python eye.py
+```
