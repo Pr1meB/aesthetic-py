@@ -25,3 +25,11 @@ cd ~/Desktop/python-cool-projects
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
+
+If `import tkinter` fails (on Ubuntu the system Python ships without it), either install it with
+`sudo apt install python3-tk` or build the venv from a uv-managed Python, which bundles Tk:
+
+```bash
+uv venv --python 3.12 --managed-python .venv
+uv pip install --python .venv/bin/python -r requirements.txt
+```
